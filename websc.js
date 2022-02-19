@@ -57,6 +57,37 @@ function getTextOnly(str) {
     return str.replace(regex, '');
 }
 
+// get multiple tag p from html
+function getP(str) {
+    var regex = /<p>(.*?)<\/p>/gm;
+    var html = '';
+    while ((m = regex.exec(str)) !== null) {
+        // This is necessary to avoid infinite loops with zero-width matches
+        
+        // The result can be accessed through the `m`-variable.
+        m.forEach((match, groupIndex) => {
+            console.log(`Found match, group ${groupIndex}: ${match}`);
+            html += match
+        });
+    }
+
+
+
+    return html;
+}
+
+// delete img tag from html
+function deleteImg(str) {
+    var regex = /<img.*?src="(.*?)\/>/;
+    var match = regex.exec(str);
+    // console.log(match[0])
+    if (match) {
+        return str.replace(match[0], '');
+    } else {
+        return str; 
+    }
+}   
+
 function getSingglePost(url, callback) {
     // if callback is function
     if (typeof callback === 'function') {
@@ -65,6 +96,8 @@ function getSingglePost(url, callback) {
     document.querySelector('.modal-body').innerHTML = `<p>Loading...</p>`;
     document.querySelector('.modal-title').innerHTML = `Loading...`;
     fetch(url).then(function(data) {
+        // console.log(data.content);
+        // console.log(deleteImg(data.content));
         // querySelector modal-title
         document.querySelector('.modal-title').innerHTML = data.title;
         // querySelector modal-body        
@@ -73,7 +106,7 @@ function getSingglePost(url, callback) {
           <img src="${getFirstImg(data.content)}" class="w-100" alt="${getFirstImg(data.content)}">
         </div>
         <div class="col-12">
-        ${getTextOnly(data.content)}
+        ${deleteImg(data.content)}
         </div>
       </div>`;
 
@@ -100,12 +133,12 @@ function loadMore(pageToken) {
         }
         data.items.forEach(function(post) {            
             appendHtml('news-list', `
-            <div class="col-3 my-4">
-                <div class="card h-100" style="width: 18rem;">
+            <div class="col-12 col-md-4 col-lg-3 my-4">
+                <div class="card h-100">
                 <img src="${getFirstImg(post.content)}" class="card-img-top" alt="${getFirstImg(post.content)}" onerror="this.onerror=null;this.src='https://via.placeholder.com/150'" height="150px">
                 <div class="card-body">
                     <h5>${substring(post.title, 30)}</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">${substring(getTextOnly(post.content), 50)}</p>
                     <button class="btn btn-primary" onclick="getSingglePost('${post.selfLink}?key=${apiKey}', ()=> {myModal.show()})">Read</button>
                 </div>
                 </div>
@@ -128,6 +161,7 @@ fetch('https://www.googleapis.com/blogger/v3/blogs/'+blogId+'/posts?maxResults=8
     // if nextPageToken is not null
     if (response.nextPageToken) {
         // set onclick event for next
+        document.getElementById('load-more').style.display = 'inline-block';
         document.getElementById('load-more').onclick = function(e) {
             loadMore(response.nextPageToken);
         }
@@ -136,15 +170,20 @@ fetch('https://www.googleapis.com/blogger/v3/blogs/'+blogId+'/posts?maxResults=8
     }
 
     // each response
-    response.items.forEach(function(post) {
-        
+    response.items.forEach(function(post, i) {
+        var img = getFirstImg(post.content);
+        // if(i <= 4) {
+        //     console.log(img);
+        //     document.getElementById(`img-${i+1}`).src = img;
+        // }
+
         appendHtml('news-list', `
-        <div class="col-3 my-4">
-            <div class="card h-100" style="width: 18rem;">
-            <img src="${getFirstImg(post.content)}"  height="150px" class="card-img-top" alt="${getFirstImg(post.content)}" onerror="this.onerror=null;this.src='https://via.placeholder.com/150'">
+        <div class="col-12 col-md-4 col-lg-3 my-4">
+            <div class="card h-100">
+            <img src="${img}"  height="150px" class="card-img-top" alt="${img}" onerror="this.onerror=null;this.src='https://via.placeholder.com/150'">
             <div class="card-body">
             <h5>${substring(post.title, 30)}</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">${substring(getTextOnly(post.content), 50)}</p>
                 <button class="btn btn-primary" onclick="getSingglePost('${post.selfLink}?key=${apiKey}', ()=> {myModal.show()})">Read</button>
             </div>
             </div>
