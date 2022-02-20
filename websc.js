@@ -133,13 +133,12 @@ function loadMore(pageToken) {
         }
         data.items.forEach(function(post) {            
             appendHtml('news-list', `
-            <div class="col-12 col-md-4 col-lg-3 my-4">
+            <div class="col-12 col-md-4 col-lg-3 my-3">
                 <div class="card h-100">
                 <img src="${getFirstImg(post.content)}" class="card-img-top" alt="${getFirstImg(post.content)}" onerror="this.onerror=null;this.src='https://via.placeholder.com/150'" height="150px">
                 <div class="card-body">
-                    <h5>${substring(post.title, 30)}</h5>
-                    <p class="card-text">${substring(getTextOnly(post.content), 50)}</p>
-                    <button class="btn btn-primary" onclick="getSingglePost('${post.selfLink}?key=${apiKey}', ()=> {myModal.show()})">Read</button>
+                    <h5 class="card-title" style="cursor: pointer" onclick="getSingglePost('${post.selfLink}?key=${apiKey}', ()=> {myModal.show()})">${substring(post.title, 100)}</h5>
+                    <p class="card-text">${substring(getTextOnly(post.content), 100)}</p>
                 </div>
                 </div>
             </div>
@@ -178,13 +177,12 @@ fetch('https://www.googleapis.com/blogger/v3/blogs/'+blogId+'/posts?maxResults=8
         // }
 
         appendHtml('news-list', `
-        <div class="col-12 col-md-4 col-lg-3 my-4">
+        <div class="col-12 col-md-4 col-lg-3 my-3">
             <div class="card h-100">
             <img src="${img}"  height="150px" class="card-img-top" alt="${img}" onerror="this.onerror=null;this.src='https://via.placeholder.com/150'">
             <div class="card-body">
-            <h5>${substring(post.title, 30)}</h5>
-                <p class="card-text">${substring(getTextOnly(post.content), 50)}</p>
-                <button class="btn btn-primary" onclick="getSingglePost('${post.selfLink}?key=${apiKey}', ()=> {myModal.show()})">Read</button>
+                <h5 class="card-title" style="cursor: pointer" onclick="getSingglePost('${post.selfLink}?key=${apiKey}', ()=> {myModal.show()})">${substring(post.title, 100)}</h5>
+                <p class="card-text">${substring(getTextOnly(post.content), 100)}</p>
             </div>
             </div>
         </div>
