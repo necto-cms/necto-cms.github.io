@@ -1,0 +1,79 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <!-- Glowing orbs -->
+  <linearGradient y2="100%" x2="100%" y1="0%" x1="0%" id="bg-grad">
+   <stop stop-color="#020617" offset="0%"/>
+   <stop stop-color="#0f172a" offset="50%"/>
+   <stop stop-color="#020617" offset="100%"/>
+  </linearGradient>
+  <radialGradient r="50%" cy="50%" cx="50%" id="glow1">
+   <stop stop-color="rgba(225, 29, 72, 0.4)" offset="0%"/>
+   <stop stop-color="rgba(225, 29, 72, 0)" offset="100%"/>
+  </radialGradient>
+  <radialGradient r="50%" cy="50%" cx="50%" id="glow2">
+   <stop stop-color="rgba(99, 102, 241, 0.4)" offset="0%"/>
+   <stop stop-color="rgba(99, 102, 241, 0)" offset="100%"/>
+  </radialGradient>
+  <radialGradient r="50%" cy="50%" cx="50%" id="glow3">
+   <stop stop-color="rgba(6, 182, 212, 0.3)" offset="0%"/>
+   <stop stop-color="rgba(6, 182, 212, 0)" offset="100%"/>
+  </radialGradient>
+  <pattern patternUnits="userSpaceOnUse" height="40" width="40" id="grid">
+   <rect id="svg_1" fill="none" height="40" width="40"/>
+   <path id="svg_2" stroke="rgba(255,255,255,0.05)" fill="none" d="m40,0l-40,0l0,40"/>
+  </pattern>
+ </defs>
+ <!-- Background -->
+ <!-- Grid Pattern -->
+ <!-- Glows -->
+ <!-- Top-left Badge -->
+ <!-- Main Highlight Text -->
+ <!-- Description -->
+ <!-- Feature Icons / Info on the Right -->
+ <!-- Browser window overlay mock (purely decorative) at bottom right -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_3" fill="url(#bg-grad)" height="630" width="1200"/>
+  <rect id="svg_4" fill="url(#grid)" height="630" width="1200"/>
+  <circle stroke="null" id="svg_5" fill="url(#glow1)" r="400" cy="150" cx="200"/>
+  <circle id="svg_6" fill="url(#glow2)" r="500" cy="500" cx="1000"/>
+  <circle id="svg_7" fill="url(#glow3)" r="300" cy="100" cx="1000"/>
+  <g id="svg_8">
+   <rect id="svg_9" x="100" y="150" stroke="rgba(71, 85, 105, 0.8)" fill="rgba(30, 41, 59, 0.8)" rx="20" height="40" width="310"/>
+   <circle id="svg_10" fill="#e11d48" r="6" cy="170" cx="120"/>
+   <text id="svg_11" letter-spacing="1" fill="#cbd5e1" font-weight="600" font-size="16" font-family="system-ui, sans-serif" y="176" x="140">BUILDING THE FUTURE OF WEB</text>
+  </g>
+  <text id="svg_12" letter-spacing="-2" fill="#ffffff" font-weight="900" font-size="85" font-family="system-ui, sans-serif" y="270" x="100">Crafting
+   <tspan id="svg_13" fill="#f43f5e">Digital</tspan></text>
+  <text id="svg_14" letter-spacing="-2" fill="#ffffff" font-weight="900" font-size="85" font-family="system-ui, sans-serif" y="370" x="100">Experiences</text>
+  <text id="svg_15" letter-spacing="0" fill="#94a3b8" font-weight="400" font-size="28" font-family="system-ui, sans-serif" y="440" x="100">Next-gen apps, futuristic websites,</text>
+  <text style="cursor: move;" id="svg_16" letter-spacing="0" fill="#94a3b8" font-weight="400" font-size="28" font-family="system-ui, sans-serif" y="480" x="100">and AI-powered tools curated by necto.</text>
+  <g id="svg_18">
+   <!-- Card 1 -->
+   <rect id="svg_19" stroke-width="2" stroke="rgba(51, 65, 85, 0.5)" fill="rgba(15, 23, 42, 0.6)" rx="24" height="100" width="350" y="200" x="750"/>
+   <circle id="svg_20" fill="rgba(99, 102, 241, 0.2)" r="25" cy="250" cx="795"/>
+   <!-- Chat Icon -->
+   <path id="svg_21" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#818cf8" fill="none" d="m789.99275,260.61684l15,0m-15,-10l10,0m-14,-10l18,0c2.2,0 4,1.8 4,4l0,10c0,2.2 -1.8,4 -4,4l-3,0l-5,5l0,-5l-10,0c-2.2,0 -4,-1.8 -4,-4l0,-10c0,-2.2 1.8,-4 4,-4z"/>
+   <text id="svg_22" fill="#f8fafc" font-weight="700" font-size="20" font-family="system-ui, sans-serif" y="247" x="835">AI Integrations</text>
+   <text id="svg_23" fill="#64748b" font-weight="400" font-size="15" font-family="system-ui, sans-serif" y="270" x="835">Smart chat &amp; analytics</text>
+   <!-- Card 2 -->
+   <rect id="svg_24" stroke-width="2" stroke="rgba(51, 65, 85, 0.5)" fill="rgba(15, 23, 42, 0.6)" rx="24" height="100" width="350" y="320" x="750"/>
+   <circle id="svg_25" fill="rgba(16, 185, 129, 0.2)" r="25" cy="370" cx="795"/>
+   <!-- Shield Icon -->
+   <path id="svg_26" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#34d399" fill="none" d="m795,358.86503c-6,0 -13,-3 -13,-3l0,10c0,10 7,16 13,20c6,-4 13,-10 13,-20l0,-10c0,0 -7,3 -13,3z"/>
+   <text id="svg_27" fill="#f8fafc" font-weight="700" font-size="20" font-family="system-ui, sans-serif" y="367" x="835">Security Tools</text>
+   <text id="svg_28" fill="#64748b" font-weight="400" font-size="15" font-family="system-ui, sans-serif" y="390" x="835">Top-tier encryption</text>
+   <!-- Card 3 -->
+   <rect id="svg_29" stroke-width="2" stroke="rgba(51, 65, 85, 0.5)" fill="rgba(15, 23, 42, 0.6)" rx="24" height="100" width="350" y="440" x="750"/>
+   <circle id="svg_30" fill="rgba(244, 63, 94, 0.2)" r="25" cy="490" cx="795"/>
+   <!-- Zap/Lightning Icon -->
+   <path id="svg_31" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#fb7185" fill="none" d="m796.12772,475l-10,16l8,0l-3,12l12,-16l-8,0l3,-12l-2,0z"/>
+   <text id="svg_32" fill="#f8fafc" font-weight="700" font-size="20" font-family="system-ui, sans-serif" y="487" x="835">Fast Performance</text>
+   <text id="svg_33" fill="#64748b" font-weight="400" font-size="15" font-family="system-ui, sans-serif" y="510" x="835">Blazing speed apps</text>
+  </g>
+  <g id="svg_34">
+   <rect id="svg_35" fill="url(#glow1)" height="2" width="1000" y="580" x="100"/>
+   <text id="svg_36" fill="#475569" font-weight="600" font-size="16" font-family="system-ui, sans-serif" y="610" x="550">xto.icu</text>
+  </g>
+ </g>
+</svg>
