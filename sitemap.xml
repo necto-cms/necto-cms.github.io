@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-    <url>
-        <loc>https://xto.icu/</loc>
-        <lastmod>2026-03-16T17:26:03.326Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/about/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/portfolio/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/tools/browser-fingerprint/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/tools/encrypt-decrypt/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/tools/hash-generator/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/tools/javascript-obfuscator/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/tools/p2p-chat/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/tools/p2p-file-drop/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://xto.icu/tools/prompt-lab/</loc>
-        <lastmod>2026-03-16T17:26:03.327Z</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://xto.icu/</loc><lastmod>2026-03-17T19:48:19.288Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/about/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/portfolio/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/browser-fingerprint/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/encrypt-decrypt/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/hash-generator/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/javascript-obfuscator/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/osint-dashboard/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/p2p-chat/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/p2p-file-drop/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/prompt-lab/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://xto.icu/tools/web-ide/</loc><lastmod>2026-03-17T19:48:19.289Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

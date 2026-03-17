@@ -1,0 +1,387 @@
+{
+  "updated": "2026-03-17T06:00:00Z",
+  "source": "NASA FIRMS VIIRS snapshot (sample)",
+  "count": 38,
+  "events": [
+    {
+      "id": "fire-001",
+      "lat": -3.42,
+      "lon": -62.35,
+      "brightness": 344,
+      "confidence": 91,
+      "frp": 32.4,
+      "region": "Amazon Basin — Brazil",
+      "timestamp": "2026-03-17T03:42:00Z"
+    },
+    {
+      "id": "fire-002",
+      "lat": -5.11,
+      "lon": -57.84,
+      "brightness": 328,
+      "confidence": 85,
+      "frp": 21.8,
+      "region": "Amazon Basin — Para State",
+      "timestamp": "2026-03-17T03:18:00Z"
+    },
+    {
+      "id": "fire-003",
+      "lat": -7.22,
+      "lon": -63.1,
+      "brightness": 356,
+      "confidence": 93,
+      "frp": 41.2,
+      "region": "Amazon Basin — Amazonas State",
+      "timestamp": "2026-03-17T02:55:00Z"
+    },
+    {
+      "id": "fire-004",
+      "lat": -10.45,
+      "lon": -55.32,
+      "brightness": 312,
+      "confidence": 78,
+      "frp": 18.5,
+      "region": "Mato Grosso — Brazil",
+      "timestamp": "2026-03-17T02:30:00Z"
+    },
+    {
+      "id": "fire-005",
+      "lat": -12.7,
+      "lon": -40.33,
+      "brightness": 298,
+      "confidence": 72,
+      "frp": 14.2,
+      "region": "Caatinga — NE Brazil",
+      "timestamp": "2026-03-17T01:55:00Z"
+    },
+    {
+      "id": "fire-006",
+      "lat": 0.81,
+      "lon": 24.42,
+      "brightness": 341,
+      "confidence": 89,
+      "frp": 28.7,
+      "region": "Congo Basin — DRC",
+      "timestamp": "2026-03-17T04:10:00Z"
+    },
+    {
+      "id": "fire-007",
+      "lat": -3.85,
+      "lon": 22.46,
+      "brightness": 325,
+      "confidence": 84,
+      "frp": 22.1,
+      "region": "Congo Rainforest — DRC",
+      "timestamp": "2026-03-17T03:45:00Z"
+    },
+    {
+      "id": "fire-008",
+      "lat": 5.36,
+      "lon": 18.64,
+      "brightness": 335,
+      "confidence": 87,
+      "frp": 25.9,
+      "region": "Central African Republic",
+      "timestamp": "2026-03-17T03:00:00Z"
+    },
+    {
+      "id": "fire-009",
+      "lat": 12.35,
+      "lon": 14.71,
+      "brightness": 318,
+      "confidence": 80,
+      "frp": 19.3,
+      "region": "Chad — Sahel",
+      "timestamp": "2026-03-17T02:15:00Z"
+    },
+    {
+      "id": "fire-010",
+      "lat": 8.63,
+      "lon": 40.51,
+      "brightness": 302,
+      "confidence": 74,
+      "frp": 15.8,
+      "region": "Ethiopia — Oromia",
+      "timestamp": "2026-03-17T01:30:00Z"
+    },
+    {
+      "id": "fire-011",
+      "lat": 14.46,
+      "lon": 16.9,
+      "brightness": 348,
+      "confidence": 92,
+      "frp": 35.1,
+      "region": "Sahel — Niger",
+      "timestamp": "2026-03-17T00:45:00Z"
+    },
+    {
+      "id": "fire-012",
+      "lat": 13.52,
+      "lon": 2.16,
+      "brightness": 329,
+      "confidence": 86,
+      "frp": 23.4,
+      "region": "Sahel — Nigeria",
+      "timestamp": "2026-03-17T00:00:00Z"
+    },
+    {
+      "id": "fire-013",
+      "lat": -24.68,
+      "lon": 31.63,
+      "brightness": 315,
+      "confidence": 79,
+      "frp": 17.6,
+      "region": "Southern Africa — Mozambique/Zimbabwe border",
+      "timestamp": "2026-03-16T23:15:00Z"
+    },
+    {
+      "id": "fire-014",
+      "lat": -18.94,
+      "lon": 32.65,
+      "brightness": 334,
+      "confidence": 88,
+      "frp": 26.8,
+      "region": "Zimbabwe — Midlands",
+      "timestamp": "2026-03-16T22:30:00Z"
+    },
+    {
+      "id": "fire-015",
+      "lat": 3.82,
+      "lon": 114.1,
+      "brightness": 337,
+      "confidence": 90,
+      "frp": 29.3,
+      "region": "Borneo — Indonesia",
+      "timestamp": "2026-03-17T05:00:00Z"
+    },
+    {
+      "id": "fire-016",
+      "lat": -0.48,
+      "lon": 111.43,
+      "brightness": 350,
+      "confidence": 94,
+      "frp": 38.7,
+      "region": "Kalimantan — Indonesia",
+      "timestamp": "2026-03-17T04:30:00Z"
+    },
+    {
+      "id": "fire-017",
+      "lat": 1.55,
+      "lon": 110.36,
+      "brightness": 322,
+      "confidence": 83,
+      "frp": 20.6,
+      "region": "Sarawak — Malaysia",
+      "timestamp": "2026-03-17T04:00:00Z"
+    },
+    {
+      "id": "fire-018",
+      "lat": -10.21,
+      "lon": 124.88,
+      "brightness": 360,
+      "confidence": 96,
+      "frp": 45.2,
+      "region": "East Timor",
+      "timestamp": "2026-03-17T03:30:00Z"
+    },
+    {
+      "id": "fire-019",
+      "lat": 16.89,
+      "lon": 100.98,
+      "brightness": 308,
+      "confidence": 76,
+      "frp": 16.4,
+      "region": "Thailand — Northern",
+      "timestamp": "2026-03-17T03:00:00Z"
+    },
+    {
+      "id": "fire-020",
+      "lat": 20.46,
+      "lon": 104.78,
+      "brightness": 319,
+      "confidence": 81,
+      "frp": 18.9,
+      "region": "Laos — Northern Highlands",
+      "timestamp": "2026-03-17T02:00:00Z"
+    },
+    {
+      "id": "fire-021",
+      "lat": 58.42,
+      "lon": 56.84,
+      "brightness": 275,
+      "confidence": 62,
+      "frp": 8.3,
+      "region": "Russia — Ural Region",
+      "timestamp": "2026-03-17T04:20:00Z"
+    },
+    {
+      "id": "fire-022",
+      "lat": 61.5,
+      "lon": 105.32,
+      "brightness": 282,
+      "confidence": 65,
+      "frp": 10.1,
+      "region": "Russia — Siberia (Krasnoyarsk)",
+      "timestamp": "2026-03-17T03:50:00Z"
+    },
+    {
+      "id": "fire-023",
+      "lat": 67.23,
+      "lon": 140.45,
+      "brightness": 271,
+      "confidence": 60,
+      "frp": 7.9,
+      "region": "Russia — Far East (Yakutia)",
+      "timestamp": "2026-03-17T03:20:00Z"
+    },
+    {
+      "id": "fire-024",
+      "lat": 40.1,
+      "lon": -120.5,
+      "brightness": 305,
+      "confidence": 75,
+      "frp": 15.2,
+      "region": "California — Northern Sierra",
+      "timestamp": "2026-03-17T00:15:00Z"
+    },
+    {
+      "id": "fire-025",
+      "lat": 34.26,
+      "lon": -118.27,
+      "brightness": 332,
+      "confidence": 87,
+      "frp": 24.8,
+      "region": "California — Los Angeles County",
+      "timestamp": "2026-03-16T22:00:00Z"
+    },
+    {
+      "id": "fire-026",
+      "lat": 36.78,
+      "lon": -119.42,
+      "brightness": 295,
+      "confidence": 70,
+      "frp": 13.6,
+      "region": "California — Fresno County",
+      "timestamp": "2026-03-16T19:00:00Z"
+    },
+    {
+      "id": "fire-027",
+      "lat": -25.82,
+      "lon": 149.63,
+      "brightness": 310,
+      "confidence": 77,
+      "frp": 17.1,
+      "region": "Australia — Queensland",
+      "timestamp": "2026-03-16T22:45:00Z"
+    },
+    {
+      "id": "fire-028",
+      "lat": -32.15,
+      "lon": 149.3,
+      "brightness": 298,
+      "confidence": 72,
+      "frp": 14.7,
+      "region": "Australia — NSW Interior",
+      "timestamp": "2026-03-16T22:00:00Z"
+    },
+    {
+      "id": "fire-029",
+      "lat": 18.35,
+      "lon": -95.77,
+      "brightness": 287,
+      "confidence": 67,
+      "frp": 11.3,
+      "region": "Mexico — Veracruz",
+      "timestamp": "2026-03-17T01:00:00Z"
+    },
+    {
+      "id": "fire-030",
+      "lat": 16.97,
+      "lon": -92.63,
+      "brightness": 303,
+      "confidence": 74,
+      "frp": 15.5,
+      "region": "Mexico — Chiapas",
+      "timestamp": "2026-03-17T00:30:00Z"
+    },
+    {
+      "id": "fire-031",
+      "lat": 6.22,
+      "lon": -1.56,
+      "brightness": 326,
+      "confidence": 85,
+      "frp": 22.4,
+      "region": "Ghana — Brong-Ahafo Region",
+      "timestamp": "2026-03-16T20:00:00Z"
+    },
+    {
+      "id": "fire-032",
+      "lat": 9.55,
+      "lon": -1.6,
+      "brightness": 318,
+      "confidence": 80,
+      "frp": 19.8,
+      "region": "Ghana/Burkina Faso border",
+      "timestamp": "2026-03-16T18:00:00Z"
+    },
+    {
+      "id": "fire-033",
+      "lat": 3.23,
+      "lon": -73.54,
+      "brightness": 339,
+      "confidence": 90,
+      "frp": 27.6,
+      "region": "Colombia — Llanos",
+      "timestamp": "2026-03-16T16:00:00Z"
+    },
+    {
+      "id": "fire-034",
+      "lat": -15.59,
+      "lon": -56.1,
+      "brightness": 320,
+      "confidence": 82,
+      "frp": 20.2,
+      "region": "Brazil — Mato Grosso do Sul",
+      "timestamp": "2026-03-16T14:00:00Z"
+    },
+    {
+      "id": "fire-035",
+      "lat": -3.74,
+      "lon": -38.52,
+      "brightness": 291,
+      "confidence": 68,
+      "frp": 12.4,
+      "region": "Brazil — Ceará",
+      "timestamp": "2026-03-16T12:00:00Z"
+    },
+    {
+      "id": "fire-036",
+      "lat": 40.68,
+      "lon": 22.95,
+      "brightness": 283,
+      "confidence": 65,
+      "frp": 10.7,
+      "region": "Greece — Thessaloniki region",
+      "timestamp": "2026-03-16T15:00:00Z"
+    },
+    {
+      "id": "fire-037",
+      "lat": 38.27,
+      "lon": 22.48,
+      "brightness": 277,
+      "confidence": 62,
+      "frp": 9.1,
+      "region": "Greece — Peloponnese",
+      "timestamp": "2026-03-16T13:00:00Z"
+    },
+    {
+      "id": "fire-038",
+      "lat": -0.02,
+      "lon": 37.91,
+      "brightness": 314,
+      "confidence": 79,
+      "frp": 17.8,
+      "region": "Kenya — Mount Kenya region",
+      "timestamp": "2026-03-16T11:00:00Z"
+    }
+  ]
+}

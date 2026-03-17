@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-17T18:19:11.743Z",
+  "datasets": {
+    "attacks": {
+      "file": "/data/osint/attacks.json",
+      "updated": "2026-03-17T06:00:00Z",
+      "count": 36,
+      "source": "ThreatFox / URLHaus snapshot (sample)"
+    },
+    "conflicts": {
+      "file": "/data/osint/conflicts.json",
+      "updated": "2026-03-17T06:00:00Z",
+      "count": 28,
+      "source": "ACLED snapshot (sample/educational)"
+    },
+    "outages": {
+      "file": "/data/osint/outages.json",
+      "updated": "2026-03-17T06:00:00Z",
+      "count": 18,
+      "source": "IODA / Cloudflare Radar snapshot (sample)"
+    },
+    "fires": {
+      "file": "/data/osint/fires.json",
+      "updated": "2026-03-17T06:00:00Z",
+      "count": 38,
+      "source": "NASA FIRMS VIIRS snapshot (sample)"
+    },
+    "aircraft": {
+      "file": "/data/osint/aircraft.json",
+      "updated": "2026-03-17T06:00:00Z",
+      "count": 22,
+      "source": "OpenSky Network / ADS-B Exchange snapshot (sample)"
+    },
+    "ships": {
+      "file": "/data/osint/ships.json",
+      "updated": "2026-03-17T06:00:00Z",
+      "count": 24,
+      "source": "MarineTraffic / AIS snapshot (sample)"
+    }
+  },
+  "refresh_interval_hours": 6,
+  "disclaimer": "This dataset is auto-generated from public OSINT feeds for educational purposes."
+}

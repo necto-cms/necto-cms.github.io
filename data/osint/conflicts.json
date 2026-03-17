@@ -1,0 +1,427 @@
+{
+  "updated": "2026-03-17T06:00:00Z",
+  "source": "ACLED snapshot (sample/educational)",
+  "count": 28,
+  "events": [
+    {
+      "id": "cfl-001",
+      "lat": 48.47,
+      "lon": 35.04,
+      "type": "battle",
+      "region": "Ukraine — Donetsk Front",
+      "severity": "critical",
+      "fatalities": 34,
+      "actors": [
+        "UA Armed Forces",
+        "RU Armed Forces"
+      ],
+      "timestamp": "2026-03-17T04:30:00Z",
+      "notes": "Sustained artillery exchange near front line"
+    },
+    {
+      "id": "cfl-002",
+      "lat": 47.92,
+      "lon": 37.57,
+      "type": "explosion",
+      "region": "Ukraine — Mariupol region",
+      "severity": "high",
+      "fatalities": 8,
+      "actors": [
+        "RU Forces",
+        "UA Civilian"
+      ],
+      "timestamp": "2026-03-17T03:51:00Z",
+      "notes": "Drone strike on infrastructure"
+    },
+    {
+      "id": "cfl-003",
+      "lat": 51.5,
+      "lon": 31.29,
+      "type": "explosion",
+      "region": "Ukraine — Chernihiv",
+      "severity": "high",
+      "fatalities": 0,
+      "actors": [
+        "RU missile",
+        "UA infrastructure"
+      ],
+      "timestamp": "2026-03-17T02:25:00Z",
+      "notes": "Cruise missile impact on power substation"
+    },
+    {
+      "id": "cfl-004",
+      "lat": 31.35,
+      "lon": 34.31,
+      "type": "battle",
+      "region": "Gaza Strip — Southern Gaza",
+      "severity": "critical",
+      "fatalities": 21,
+      "actors": [
+        "IDF",
+        "Hamas"
+      ],
+      "timestamp": "2026-03-17T04:10:00Z",
+      "notes": "Ground operation continues"
+    },
+    {
+      "id": "cfl-005",
+      "lat": 31.52,
+      "lon": 34.45,
+      "type": "explosion",
+      "region": "Gaza Strip — Central Gaza",
+      "severity": "critical",
+      "fatalities": 15,
+      "actors": [
+        "IDF",
+        "Palestinian militants"
+      ],
+      "timestamp": "2026-03-17T03:20:00Z",
+      "notes": "Airstrike on identified target"
+    },
+    {
+      "id": "cfl-006",
+      "lat": 15.55,
+      "lon": 32.54,
+      "type": "battle",
+      "region": "Sudan — Khartoum",
+      "severity": "critical",
+      "fatalities": 12,
+      "actors": [
+        "SAF",
+        "RSF"
+      ],
+      "timestamp": "2026-03-17T01:45:00Z",
+      "notes": "Ongoing urban combat"
+    },
+    {
+      "id": "cfl-007",
+      "lat": 13.64,
+      "lon": 30.48,
+      "type": "violence",
+      "region": "Sudan — Darfur",
+      "severity": "high",
+      "fatalities": 27,
+      "actors": [
+        "RSF",
+        "Civilians"
+      ],
+      "timestamp": "2026-03-16T22:30:00Z",
+      "notes": "Mass civilian casualties reported"
+    },
+    {
+      "id": "cfl-008",
+      "lat": 15.35,
+      "lon": 44.21,
+      "type": "explosion",
+      "region": "Yemen — Sana'a",
+      "severity": "high",
+      "fatalities": 5,
+      "actors": [
+        "Houthi",
+        "Coalition airstrike"
+      ],
+      "timestamp": "2026-03-17T00:50:00Z",
+      "notes": "Coalition strike on military position"
+    },
+    {
+      "id": "cfl-009",
+      "lat": 12.78,
+      "lon": 45.04,
+      "type": "battle",
+      "region": "Yemen — Aden",
+      "severity": "medium",
+      "fatalities": 3,
+      "actors": [
+        "Houthi",
+        "STC"
+      ],
+      "timestamp": "2026-03-16T20:15:00Z",
+      "notes": "Skirmish near port area"
+    },
+    {
+      "id": "cfl-010",
+      "lat": 16.87,
+      "lon": 96.12,
+      "type": "battle",
+      "region": "Myanmar — Yangon Outskirts",
+      "severity": "high",
+      "fatalities": 9,
+      "actors": [
+        "Junta Forces",
+        "PDF"
+      ],
+      "timestamp": "2026-03-17T03:00:00Z",
+      "notes": "PDF attack on military checkpoint"
+    },
+    {
+      "id": "cfl-011",
+      "lat": 22.01,
+      "lon": 96.7,
+      "type": "explosion",
+      "region": "Myanmar — Mandalay",
+      "severity": "medium",
+      "fatalities": 2,
+      "actors": [
+        "Unknown",
+        "Civilian area"
+      ],
+      "timestamp": "2026-03-16T19:45:00Z",
+      "notes": "IED detonation"
+    },
+    {
+      "id": "cfl-012",
+      "lat": -1.57,
+      "lon": 29.22,
+      "type": "battle",
+      "region": "DRC — North Kivu",
+      "severity": "critical",
+      "fatalities": 18,
+      "actors": [
+        "FARDC",
+        "M23/RDF"
+      ],
+      "timestamp": "2026-03-17T01:20:00Z",
+      "notes": "M23 advances in eastern DRC"
+    },
+    {
+      "id": "cfl-013",
+      "lat": 2.05,
+      "lon": 45.34,
+      "type": "violence",
+      "region": "Somalia — Mogadishu",
+      "severity": "high",
+      "fatalities": 7,
+      "actors": [
+        "Al-Shabaab",
+        "Somali Security Forces"
+      ],
+      "timestamp": "2026-03-17T00:05:00Z",
+      "notes": "VB IED attack on government convoy"
+    },
+    {
+      "id": "cfl-014",
+      "lat": 12.37,
+      "lon": 43.15,
+      "type": "explosion",
+      "region": "Somalia — Baidoa",
+      "severity": "medium",
+      "fatalities": 4,
+      "actors": [
+        "Al-Shabaab",
+        "Civilians"
+      ],
+      "timestamp": "2026-03-16T21:30:00Z",
+      "notes": "Suicide bombing at marketplace"
+    },
+    {
+      "id": "cfl-015",
+      "lat": 32,
+      "lon": 35.95,
+      "type": "explosion",
+      "region": "West Bank — Jenin",
+      "severity": "medium",
+      "fatalities": 2,
+      "actors": [
+        "IDF",
+        "Palestinian militants"
+      ],
+      "timestamp": "2026-03-17T02:40:00Z",
+      "notes": "IDF raid on militant cell"
+    },
+    {
+      "id": "cfl-016",
+      "lat": 46.5,
+      "lon": 30.74,
+      "type": "explosion",
+      "region": "Ukraine — Odessa",
+      "severity": "high",
+      "fatalities": 1,
+      "actors": [
+        "RU Navy drone",
+        "UA port"
+      ],
+      "timestamp": "2026-03-17T04:55:00Z",
+      "notes": "Kamikaze drone hits grain terminal"
+    },
+    {
+      "id": "cfl-017",
+      "lat": 49.84,
+      "lon": 24.03,
+      "type": "explosion",
+      "region": "Ukraine — Lviv",
+      "severity": "medium",
+      "fatalities": 0,
+      "actors": [
+        "RU missile",
+        "UA air defense"
+      ],
+      "timestamp": "2026-03-17T03:45:00Z",
+      "notes": "Missile intercepted by air defense"
+    },
+    {
+      "id": "cfl-018",
+      "lat": 9.02,
+      "lon": 38.75,
+      "type": "violence",
+      "region": "Ethiopia — Addis Ababa",
+      "severity": "medium",
+      "fatalities": 3,
+      "actors": [
+        "OLA",
+        "ETH Forces"
+      ],
+      "timestamp": "2026-03-16T15:20:00Z",
+      "notes": "Clashes in Oromia region outskirts"
+    },
+    {
+      "id": "cfl-019",
+      "lat": 14.1,
+      "lon": -15.78,
+      "type": "protest",
+      "region": "Sahel — Mali",
+      "severity": "low",
+      "fatalities": 0,
+      "actors": [
+        "JNIM",
+        "Mali Junta"
+      ],
+      "timestamp": "2026-03-16T14:00:00Z",
+      "notes": "Anti-France protests turn violent"
+    },
+    {
+      "id": "cfl-020",
+      "lat": 11.86,
+      "lon": 15.03,
+      "type": "battle",
+      "region": "Chad — N'Djamena",
+      "severity": "medium",
+      "fatalities": 6,
+      "actors": [
+        "Rebel faction",
+        "Chad Army"
+      ],
+      "timestamp": "2026-03-16T12:00:00Z",
+      "notes": "Armed group attempted government compound attack"
+    },
+    {
+      "id": "cfl-021",
+      "lat": 33.51,
+      "lon": 36.29,
+      "type": "explosion",
+      "region": "Syria — Damascus",
+      "severity": "medium",
+      "fatalities": 3,
+      "actors": [
+        "Unknown",
+        "Civilian"
+      ],
+      "timestamp": "2026-03-16T22:15:00Z",
+      "notes": "IED explosion near market"
+    },
+    {
+      "id": "cfl-022",
+      "lat": 36.2,
+      "lon": 37.16,
+      "type": "battle",
+      "region": "Syria — Aleppo region",
+      "severity": "medium",
+      "fatalities": 5,
+      "actors": [
+        "SNA",
+        "SDF"
+      ],
+      "timestamp": "2026-03-16T19:00:00Z",
+      "notes": "Skirmish along ceasefire line"
+    },
+    {
+      "id": "cfl-023",
+      "lat": 33.34,
+      "lon": 44.4,
+      "type": "explosion",
+      "region": "Iraq — Baghdad",
+      "severity": "medium",
+      "fatalities": 2,
+      "actors": [
+        "PMF factions",
+        "Unknown"
+      ],
+      "timestamp": "2026-03-16T18:30:00Z",
+      "notes": "Rocket attack on Green Zone perimeter"
+    },
+    {
+      "id": "cfl-024",
+      "lat": 36.33,
+      "lon": 43.11,
+      "type": "battle",
+      "region": "Iraq — Mosul region",
+      "severity": "medium",
+      "fatalities": 4,
+      "actors": [
+        "ISIS remnants",
+        "ISF"
+      ],
+      "timestamp": "2026-03-16T16:45:00Z",
+      "notes": "ISIS cell ambush on security patrol"
+    },
+    {
+      "id": "cfl-025",
+      "lat": 3.86,
+      "lon": 11.52,
+      "type": "violence",
+      "region": "Cameroon — NW Region",
+      "severity": "medium",
+      "fatalities": 8,
+      "actors": [
+        "Ambazonia separatists",
+        "Cameroonian Army"
+      ],
+      "timestamp": "2026-03-16T14:30:00Z",
+      "notes": "Attack on army post in Anglophone region"
+    },
+    {
+      "id": "cfl-026",
+      "lat": -14.84,
+      "lon": 32.65,
+      "type": "violence",
+      "region": "Mozambique — Cabo Delgado",
+      "severity": "high",
+      "fatalities": 11,
+      "actors": [
+        "Ansar al-Sunna",
+        "FADM"
+      ],
+      "timestamp": "2026-03-16T10:00:00Z",
+      "notes": "Attack on village near gas project area"
+    },
+    {
+      "id": "cfl-027",
+      "lat": 23.61,
+      "lon": 85.28,
+      "type": "protest",
+      "region": "India — Jharkhand",
+      "severity": "low",
+      "fatalities": 1,
+      "actors": [
+        "Naxalite",
+        "CRPF"
+      ],
+      "timestamp": "2026-03-16T09:00:00Z",
+      "notes": "IED planted by Maoist group on road"
+    },
+    {
+      "id": "cfl-028",
+      "lat": 7.53,
+      "lon": -5.55,
+      "type": "violence",
+      "region": "Ivory Coast — West",
+      "severity": "medium",
+      "fatalities": 5,
+      "actors": [
+        "JNIM",
+        "Local forces"
+      ],
+      "timestamp": "2026-03-16T08:00:00Z",
+      "notes": "Cross-border incursion from Mali"
+    }
+  ]
+}

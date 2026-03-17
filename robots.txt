@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-Sitemap: https://xto.icu/sitemap_index.xml
+# Host
+Host: https://xto.icu
+
+# Sitemaps
+Sitemap: https://xto.icu/sitemap.xml

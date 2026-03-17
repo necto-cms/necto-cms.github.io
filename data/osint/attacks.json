@@ -1,0 +1,619 @@
+{
+  "updated": "2026-03-17T06:00:00Z",
+  "source": "ThreatFox / URLHaus snapshot (sample)",
+  "count": 36,
+  "events": [
+    {
+      "id": "atk-001",
+      "src_lat": 55.75,
+      "src_lon": 37.62,
+      "dst_lat": 40.71,
+      "dst_lon": -74.01,
+      "type": "apt",
+      "src_country": "Russia",
+      "dst_country": "USA",
+      "severity": "critical",
+      "timestamp": "2026-03-17T05:47:00Z",
+      "ioc": "185.220.101.45",
+      "tags": [
+        "APT28",
+        "espionage"
+      ]
+    },
+    {
+      "id": "atk-002",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": 25.04,
+      "dst_lon": 121.56,
+      "type": "apt",
+      "src_country": "China",
+      "dst_country": "Taiwan",
+      "severity": "critical",
+      "timestamp": "2026-03-17T05:31:00Z",
+      "ioc": "103.79.78.44",
+      "tags": [
+        "APT41",
+        "data-exfil"
+      ]
+    },
+    {
+      "id": "atk-003",
+      "src_lat": 35.69,
+      "src_lon": 51.39,
+      "dst_lat": 32.08,
+      "dst_lon": 34.78,
+      "type": "malware",
+      "src_country": "Iran",
+      "dst_country": "Israel",
+      "severity": "high",
+      "timestamp": "2026-03-17T04:59:00Z",
+      "ioc": "89.34.111.22",
+      "tags": [
+        "wiper",
+        "destructive"
+      ]
+    },
+    {
+      "id": "atk-004",
+      "src_lat": 39.02,
+      "src_lon": 125.75,
+      "dst_lat": 37.57,
+      "dst_lon": 126.98,
+      "type": "exploit",
+      "src_country": "North Korea",
+      "dst_country": "South Korea",
+      "severity": "high",
+      "timestamp": "2026-03-17T04:44:00Z",
+      "ioc": "175.45.178.33",
+      "tags": [
+        "Lazarus",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "id": "atk-005",
+      "src_lat": 55.75,
+      "src_lon": 37.62,
+      "dst_lat": 51.51,
+      "dst_lon": -0.13,
+      "type": "ddos",
+      "src_country": "Russia",
+      "dst_country": "UK",
+      "severity": "high",
+      "timestamp": "2026-03-17T04:22:00Z",
+      "ioc": "194.165.16.11",
+      "tags": [
+        "KillNet",
+        "ddos"
+      ]
+    },
+    {
+      "id": "atk-006",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": 37.77,
+      "dst_lon": -122.42,
+      "type": "apt",
+      "src_country": "China",
+      "dst_country": "USA",
+      "severity": "critical",
+      "timestamp": "2026-03-17T04:10:00Z",
+      "ioc": "45.248.87.14",
+      "tags": [
+        "APT10",
+        "supply-chain"
+      ]
+    },
+    {
+      "id": "atk-007",
+      "src_lat": -23.55,
+      "src_lon": -46.63,
+      "dst_lat": 52.52,
+      "dst_lon": 13.41,
+      "type": "botnet",
+      "src_country": "Brazil",
+      "dst_country": "Germany",
+      "severity": "medium",
+      "timestamp": "2026-03-17T03:55:00Z",
+      "ioc": "177.67.45.22",
+      "tags": [
+        "banking-trojan",
+        "Emotet"
+      ]
+    },
+    {
+      "id": "atk-008",
+      "src_lat": 44.8,
+      "src_lon": 20.46,
+      "dst_lat": 47.5,
+      "dst_lon": 19.04,
+      "type": "ransomware",
+      "src_country": "Serbia",
+      "dst_country": "Hungary",
+      "severity": "high",
+      "timestamp": "2026-03-17T03:40:00Z",
+      "ioc": "31.148.219.36",
+      "tags": [
+        "LockBit",
+        "ransomware"
+      ]
+    },
+    {
+      "id": "atk-009",
+      "src_lat": 55.75,
+      "src_lon": 37.62,
+      "dst_lat": 48.86,
+      "dst_lon": 2.35,
+      "type": "phishing",
+      "src_country": "Russia",
+      "dst_country": "France",
+      "severity": "medium",
+      "timestamp": "2026-03-17T03:28:00Z",
+      "ioc": "91.108.56.22",
+      "tags": [
+        "credential-theft",
+        "NATO"
+      ]
+    },
+    {
+      "id": "atk-010",
+      "src_lat": 6.52,
+      "src_lon": 3.38,
+      "dst_lat": 40.71,
+      "dst_lon": -74.01,
+      "type": "phishing",
+      "src_country": "Nigeria",
+      "dst_country": "USA",
+      "severity": "low",
+      "timestamp": "2026-03-17T03:15:00Z",
+      "ioc": "197.149.4.31",
+      "tags": [
+        "BEC",
+        "fraud"
+      ]
+    },
+    {
+      "id": "atk-011",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": 35.68,
+      "dst_lon": 139.69,
+      "type": "apt",
+      "src_country": "China",
+      "dst_country": "Japan",
+      "severity": "high",
+      "timestamp": "2026-03-17T03:02:00Z",
+      "ioc": "114.222.85.11",
+      "tags": [
+        "APT40",
+        "maritime"
+      ]
+    },
+    {
+      "id": "atk-012",
+      "src_lat": 44.43,
+      "src_lon": 26.1,
+      "dst_lat": 38.72,
+      "dst_lon": -9.14,
+      "type": "botnet",
+      "src_country": "Romania",
+      "dst_country": "Portugal",
+      "severity": "low",
+      "timestamp": "2026-03-17T02:50:00Z",
+      "ioc": "89.33.246.45",
+      "tags": [
+        "spam",
+        "credential"
+      ]
+    },
+    {
+      "id": "atk-013",
+      "src_lat": 35.69,
+      "src_lon": 51.39,
+      "dst_lat": 24.47,
+      "dst_lon": 54.37,
+      "type": "malware",
+      "src_country": "Iran",
+      "dst_country": "UAE",
+      "severity": "high",
+      "timestamp": "2026-03-17T02:35:00Z",
+      "ioc": "5.144.130.55",
+      "tags": [
+        "MuddyWater",
+        "backdoor"
+      ]
+    },
+    {
+      "id": "atk-014",
+      "src_lat": 39.02,
+      "src_lon": 125.75,
+      "dst_lat": -33.87,
+      "dst_lon": 151.21,
+      "type": "exploit",
+      "src_country": "North Korea",
+      "dst_country": "Australia",
+      "severity": "medium",
+      "timestamp": "2026-03-17T02:20:00Z",
+      "ioc": "210.4.96.34",
+      "tags": [
+        "Lazarus",
+        "crypto-theft"
+      ]
+    },
+    {
+      "id": "atk-015",
+      "src_lat": 55.75,
+      "src_lon": 37.62,
+      "dst_lat": 50.45,
+      "dst_lon": 30.52,
+      "type": "ddos",
+      "src_country": "Russia",
+      "dst_country": "Ukraine",
+      "severity": "critical",
+      "timestamp": "2026-03-17T02:05:00Z",
+      "ioc": "46.166.186.23",
+      "tags": [
+        "Sandworm",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "atk-016",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": 1.35,
+      "dst_lon": 103.82,
+      "type": "apt",
+      "src_country": "China",
+      "dst_country": "Singapore",
+      "severity": "high",
+      "timestamp": "2026-03-17T01:52:00Z",
+      "ioc": "103.250.68.11",
+      "tags": [
+        "APT3",
+        "telecom"
+      ]
+    },
+    {
+      "id": "atk-017",
+      "src_lat": 30.04,
+      "src_lon": 31.24,
+      "dst_lat": 32.08,
+      "dst_lon": 34.78,
+      "type": "c2",
+      "src_country": "Egypt",
+      "dst_country": "Israel",
+      "severity": "medium",
+      "timestamp": "2026-03-17T01:38:00Z",
+      "ioc": "41.67.215.14",
+      "tags": [
+        "c2",
+        "recon"
+      ]
+    },
+    {
+      "id": "atk-018",
+      "src_lat": -23.55,
+      "src_lon": -46.63,
+      "dst_lat": 40.71,
+      "dst_lon": -74.01,
+      "type": "ransomware",
+      "src_country": "Brazil",
+      "dst_country": "USA",
+      "severity": "high",
+      "timestamp": "2026-03-17T01:22:00Z",
+      "ioc": "189.28.165.44",
+      "tags": [
+        "REvil",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "atk-019",
+      "src_lat": 55.75,
+      "src_lon": 37.62,
+      "dst_lat": 52.37,
+      "dst_lon": 4.9,
+      "type": "apt",
+      "src_country": "Russia",
+      "dst_country": "Netherlands",
+      "severity": "high",
+      "timestamp": "2026-03-17T01:08:00Z",
+      "ioc": "46.151.209.33",
+      "tags": [
+        "Cozy Bear",
+        "government"
+      ]
+    },
+    {
+      "id": "atk-020",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": 28.61,
+      "dst_lon": 77.23,
+      "type": "ddos",
+      "src_country": "China",
+      "dst_country": "India",
+      "severity": "medium",
+      "timestamp": "2026-03-17T00:55:00Z",
+      "ioc": "103.35.74.22",
+      "tags": [
+        "border",
+        "critical-infra"
+      ]
+    },
+    {
+      "id": "atk-021",
+      "src_lat": 35.69,
+      "src_lon": 51.39,
+      "dst_lat": 23.69,
+      "dst_lon": 37.9,
+      "type": "malware",
+      "src_country": "Iran",
+      "dst_country": "Saudi Arabia",
+      "severity": "high",
+      "timestamp": "2026-03-17T00:40:00Z",
+      "ioc": "5.77.57.33",
+      "tags": [
+        "APT34",
+        "energy"
+      ]
+    },
+    {
+      "id": "atk-022",
+      "src_lat": 59.33,
+      "src_lon": 18.07,
+      "dst_lat": 51.51,
+      "dst_lon": -0.13,
+      "type": "botnet",
+      "src_country": "Sweden",
+      "dst_country": "UK",
+      "severity": "low",
+      "timestamp": "2026-03-17T00:28:00Z",
+      "ioc": "37.120.210.44",
+      "tags": [
+        "proxy",
+        "botnet"
+      ]
+    },
+    {
+      "id": "atk-023",
+      "src_lat": 39.02,
+      "src_lon": 125.75,
+      "dst_lat": 38.9,
+      "dst_lon": -77.04,
+      "type": "apt",
+      "src_country": "North Korea",
+      "dst_country": "USA",
+      "severity": "critical",
+      "timestamp": "2026-03-17T00:14:00Z",
+      "ioc": "185.62.190.8",
+      "tags": [
+        "Lazarus",
+        "defense"
+      ]
+    },
+    {
+      "id": "atk-024",
+      "src_lat": 48.86,
+      "src_lon": 2.35,
+      "dst_lat": 40.71,
+      "dst_lon": -74.01,
+      "type": "phishing",
+      "src_country": "France",
+      "dst_country": "USA",
+      "severity": "low",
+      "timestamp": "2026-03-16T23:58:00Z",
+      "ioc": "80.67.43.31",
+      "tags": [
+        "compromised-host",
+        "relay"
+      ]
+    },
+    {
+      "id": "atk-025",
+      "src_lat": 37.95,
+      "src_lon": 23.72,
+      "dst_lat": 50.45,
+      "dst_lon": 30.52,
+      "type": "exploit",
+      "src_country": "Russia",
+      "dst_country": "Ukraine",
+      "severity": "critical",
+      "timestamp": "2026-03-16T23:42:00Z",
+      "ioc": "193.32.162.44",
+      "tags": [
+        "0day",
+        "gov"
+      ]
+    },
+    {
+      "id": "atk-026",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": -33.87,
+      "dst_lon": 151.21,
+      "type": "apt",
+      "src_country": "China",
+      "dst_country": "Australia",
+      "severity": "high",
+      "timestamp": "2026-03-16T23:26:00Z",
+      "ioc": "103.79.79.22",
+      "tags": [
+        "APT40",
+        "defense"
+      ]
+    },
+    {
+      "id": "atk-027",
+      "src_lat": 55,
+      "src_lon": 82.93,
+      "dst_lat": 52.52,
+      "dst_lon": 13.41,
+      "type": "ddos",
+      "src_country": "Russia",
+      "dst_country": "Germany",
+      "severity": "medium",
+      "timestamp": "2026-03-16T23:10:00Z",
+      "ioc": "194.28.117.33",
+      "tags": [
+        "botnet",
+        "amplification"
+      ]
+    },
+    {
+      "id": "atk-028",
+      "src_lat": 35.69,
+      "src_lon": 51.39,
+      "dst_lat": 41.01,
+      "dst_lon": 28.95,
+      "type": "phishing",
+      "src_country": "Iran",
+      "dst_country": "Turkey",
+      "severity": "medium",
+      "timestamp": "2026-03-16T22:54:00Z",
+      "ioc": "31.192.209.14",
+      "tags": [
+        "spear-phishing",
+        "NATO"
+      ]
+    },
+    {
+      "id": "atk-029",
+      "src_lat": 10.82,
+      "src_lon": 106.63,
+      "dst_lat": 37.77,
+      "dst_lon": -122.42,
+      "type": "botnet",
+      "src_country": "Vietnam",
+      "dst_country": "USA",
+      "severity": "medium",
+      "timestamp": "2026-03-16T22:38:00Z",
+      "ioc": "14.161.8.22",
+      "tags": [
+        "Cobalt Strike",
+        "c2"
+      ]
+    },
+    {
+      "id": "atk-030",
+      "src_lat": 55.75,
+      "src_lon": 37.62,
+      "dst_lat": 59.33,
+      "dst_lon": 18.07,
+      "type": "apt",
+      "src_country": "Russia",
+      "dst_country": "Sweden",
+      "severity": "high",
+      "timestamp": "2026-03-16T22:22:00Z",
+      "ioc": "185.220.101.55",
+      "tags": [
+        "GRU",
+        "NATO-member"
+      ]
+    },
+    {
+      "id": "atk-031",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": 48.86,
+      "dst_lon": 2.35,
+      "type": "malware",
+      "src_country": "China",
+      "dst_country": "France",
+      "severity": "medium",
+      "timestamp": "2026-03-16T22:05:00Z",
+      "ioc": "101.36.118.22",
+      "tags": [
+        "diplomatic",
+        "spyware"
+      ]
+    },
+    {
+      "id": "atk-032",
+      "src_lat": 40.41,
+      "src_lon": -3.7,
+      "dst_lat": 51.51,
+      "dst_lon": -0.13,
+      "type": "ransomware",
+      "src_country": "Spain",
+      "dst_country": "UK",
+      "severity": "medium",
+      "timestamp": "2026-03-16T21:49:00Z",
+      "ioc": "195.206.107.44",
+      "tags": [
+        "compromised",
+        "affiliate"
+      ]
+    },
+    {
+      "id": "atk-033",
+      "src_lat": 35.69,
+      "src_lon": 51.39,
+      "dst_lat": 38.72,
+      "dst_lon": -9.14,
+      "type": "c2",
+      "src_country": "Iran",
+      "dst_country": "Portugal",
+      "severity": "medium",
+      "timestamp": "2026-03-16T21:33:00Z",
+      "ioc": "89.46.222.33",
+      "tags": [
+        "c2-server",
+        "Chaos"
+      ]
+    },
+    {
+      "id": "atk-034",
+      "src_lat": 39.02,
+      "src_lon": 125.75,
+      "dst_lat": 1.35,
+      "dst_lon": 103.82,
+      "type": "exploit",
+      "src_country": "North Korea",
+      "dst_country": "Singapore",
+      "severity": "high",
+      "timestamp": "2026-03-16T21:17:00Z",
+      "ioc": "175.45.176.14",
+      "tags": [
+        "financial",
+        "SWIFT"
+      ]
+    },
+    {
+      "id": "atk-035",
+      "src_lat": 55.75,
+      "src_lon": 37.62,
+      "dst_lat": 45.46,
+      "dst_lon": 9.19,
+      "type": "ddos",
+      "src_country": "Russia",
+      "dst_country": "Italy",
+      "severity": "medium",
+      "timestamp": "2026-03-16T21:01:00Z",
+      "ioc": "46.182.21.22",
+      "tags": [
+        "NoName057",
+        "hacktivism"
+      ]
+    },
+    {
+      "id": "atk-036",
+      "src_lat": 39.92,
+      "src_lon": 116.39,
+      "dst_lat": 55.75,
+      "dst_lon": 37.62,
+      "type": "apt",
+      "src_country": "China",
+      "dst_country": "Russia",
+      "severity": "medium",
+      "timestamp": "2026-03-16T20:45:00Z",
+      "ioc": "103.81.219.14",
+      "tags": [
+        "intelligence",
+        "counter-espionage"
+      ]
+    }
+  ]
+}
