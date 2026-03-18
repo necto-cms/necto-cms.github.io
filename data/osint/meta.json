@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-03-18T12:16:20.964Z",
+  "generated": "2026-03-18T16:57:15.819Z",
   "datasets": {
     "attacks": {
       "file": "/data/osint/attacks.json",
@@ -10,9 +10,9 @@
     },
     "conflicts": {
       "file": "/data/osint/conflicts.json",
-      "updated": "2026-03-17T06:00:00Z",
-      "count": 28,
-      "source": "ACLED snapshot (sample/educational)"
+      "updated": "2026-03-18T16:57:12.794Z",
+      "count": 84,
+      "source": "USGS Earthquakes (live)"
     },
     "outages": {
       "file": "/data/osint/outages.json",
@@ -22,9 +22,9 @@
     },
     "fires": {
       "file": "/data/osint/fires.json",
-      "updated": "2026-03-17T06:00:00Z",
-      "count": 38,
-      "source": "NASA FIRMS VIIRS snapshot (sample)"
+      "updated": "2026-03-18T16:57:13.359Z",
+      "count": 100,
+      "source": "NASA EONET (live)"
     },
     "aircraft": {
       "file": "/data/osint/aircraft.json",
