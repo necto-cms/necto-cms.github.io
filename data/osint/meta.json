@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-03-18T16:57:15.819Z",
+  "generated": "2026-03-19T12:11:27.726Z",
   "datasets": {
     "attacks": {
       "file": "/data/osint/attacks.json",
@@ -8,10 +8,10 @@
       "count": 36,
       "source": "ThreatFox / URLHaus snapshot (sample)"
     },
-    "conflicts": {
-      "file": "/data/osint/conflicts.json",
-      "updated": "2026-03-18T16:57:12.794Z",
-      "count": 84,
+    "earthquakes": {
+      "file": "/data/osint/earthquakes.json",
+      "updated": "2026-03-19T12:11:27.434Z",
+      "count": 85,
       "source": "USGS Earthquakes (live)"
     },
     "outages": {
@@ -22,7 +22,7 @@
     },
     "fires": {
       "file": "/data/osint/fires.json",
-      "updated": "2026-03-18T16:57:13.359Z",
+      "updated": "2026-03-19T12:11:27.526Z",
       "count": 100,
       "source": "NASA EONET (live)"
     },
