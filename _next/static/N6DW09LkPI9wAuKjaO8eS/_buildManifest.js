@@ -15,7 +15,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/ed06ee1de27dd5d1.js"
   ],
   "/tools/ai-image-generator": [
-    "static/chunks/f299d66ff6d4770a.js"
+    "static/chunks/69e68f14a5153cdb.js"
   ],
   "/tools/browser-fingerprint": [
     "static/chunks/c23ea9c0a34b639e.js"
