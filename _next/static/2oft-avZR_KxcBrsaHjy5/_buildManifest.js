@@ -48,7 +48,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/c3595791e9945305.js"
   ],
   "/tools/url-shortener": [
-    "static/chunks/9363e1630e6ed5e1.js"
+    "static/chunks/ee0f5fe09d82526d.js"
   ],
   "/tools/web-ide": [
     "static/chunks/a846e31f9a44df06.js"
