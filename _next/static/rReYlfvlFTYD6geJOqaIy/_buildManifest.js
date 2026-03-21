@@ -18,7 +18,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/58d1a11cf70dbd64.js"
   ],
   "/tools/browser-fingerprint": [
-    "static/chunks/73e7215cb9429bb7.js"
+    "static/chunks/267ecabc52a8494a.js"
   ],
   "/tools/encrypt-decrypt": [
     "static/chunks/f0a6bd64cf47db58.js"
@@ -39,7 +39,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/9c5e280f088c12fa.js"
   ],
   "/tools/p2p-chat": [
-    "static/chunks/393c89796a446d40.js"
+    "static/chunks/8c5fa04b1792d743.js"
   ],
   "/tools/p2p-file-drop": [
     "static/chunks/1b8adb87db0ef14a.js"
@@ -48,7 +48,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/c3595791e9945305.js"
   ],
   "/tools/url-shortener": [
-    "static/chunks/ee0f5fe09d82526d.js"
+    "static/chunks/78bbb812ee04e465.js"
   ],
   "/tools/web-ide": [
     "static/chunks/a846e31f9a44df06.js"

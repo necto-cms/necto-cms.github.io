@@ -1,8 +1,263 @@
 {
-  "updated": "2026-03-20T18:11:53.053Z",
+  "updated": "2026-03-21T18:06:56.030Z",
   "source": "USGS Earthquakes (live)",
-  "count": 94,
+  "count": 100,
   "events": [
+    {
+      "id": "eq-usgs-us6000si5l",
+      "lat": 23.8862,
+      "lon": -45.8413,
+      "type": "earthquake",
+      "region": "northern Mid-Atlantic Ridge",
+      "severity": "high",
+      "magnitude": 6.7,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T12:16:46.766Z",
+      "notes": "M 6.7 - northern Mid-Atlantic Ridge"
+    },
+    {
+      "id": "eq-usgs-us6000si5j",
+      "lat": 29.4304,
+      "lon": 130.6158,
+      "type": "earthquake",
+      "region": "89 km S of Koshima, Japan",
+      "severity": "medium",
+      "magnitude": 4.5,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T11:53:16.975Z",
+      "notes": "M 4.5 - 89 km S of Koshima, Japan"
+    },
+    {
+      "id": "eq-usgs-us6000si57",
+      "lat": 29.4276,
+      "lon": 130.7265,
+      "type": "earthquake",
+      "region": "91 km SSE of Koshima, Japan",
+      "severity": "medium",
+      "magnitude": 5.4,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T11:12:04.833Z",
+      "notes": "M 5.4 - 91 km SSE of Koshima, Japan"
+    },
+    {
+      "id": "eq-usgs-us6000si52",
+      "lat": -30.2134,
+      "lon": -177.1604,
+      "type": "earthquake",
+      "region": "Kermadec Islands, New Zealand",
+      "severity": "medium",
+      "magnitude": 5,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T10:25:58.666Z",
+      "notes": "M 5.0 - Kermadec Islands, New Zealand"
+    },
+    {
+      "id": "eq-usgs-us6000si4j",
+      "lat": -24.0759,
+      "lon": -66.977,
+      "type": "earthquake",
+      "region": "68 km WNW of San Antonio de los Cobres, Argentina",
+      "severity": "high",
+      "magnitude": 5.6,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T10:00:37.467Z",
+      "notes": "M 5.6 - 68 km WNW of San Antonio de los Cobres, Argentina"
+    },
+    {
+      "id": "eq-usgs-us6000si2t",
+      "lat": -21.903,
+      "lon": -178.8621,
+      "type": "earthquake",
+      "region": "Fiji region",
+      "severity": "medium",
+      "magnitude": 4.9,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T05:56:06.209Z",
+      "notes": "M 4.9 - Fiji region"
+    },
+    {
+      "id": "eq-usgs-us6000si1v",
+      "lat": -16.0059,
+      "lon": 166.8808,
+      "type": "earthquake",
+      "region": "55 km W of Norsup, Vanuatu",
+      "severity": "medium",
+      "magnitude": 4.5,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T04:15:27.766Z",
+      "notes": "M 4.5 - 55 km W of Norsup, Vanuatu"
+    },
+    {
+      "id": "eq-usgs-us6000si17",
+      "lat": -16.0064,
+      "lon": 166.9182,
+      "type": "earthquake",
+      "region": "51 km W of Norsup, Vanuatu",
+      "severity": "high",
+      "magnitude": 5.7,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T03:21:00.605Z",
+      "notes": "M 5.7 - 51 km W of Norsup, Vanuatu"
+    },
+    {
+      "id": "eq-usgs-us6000si0t",
+      "lat": 35.0831,
+      "lon": 69.9492,
+      "type": "earthquake",
+      "region": "37 km NE of Tagāb, Afghanistan",
+      "severity": "medium",
+      "magnitude": 4.5,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T02:01:50.911Z",
+      "notes": "M 4.5 - 37 km NE of Tagāb, Afghanistan"
+    },
+    {
+      "id": "eq-usgs-us6000si0l",
+      "lat": 38.5127,
+      "lon": 14.2898,
+      "type": "earthquake",
+      "region": "46 km W of Leni, Italy",
+      "severity": "medium",
+      "magnitude": 5.2,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T01:46:05.394Z",
+      "notes": "M 5.2 - 46 km W of Leni, Italy"
+    },
+    {
+      "id": "eq-usgs-us6000si0j",
+      "lat": 51.9839,
+      "lon": 159.9968,
+      "type": "earthquake",
+      "region": "151 km SE of Vilyuchinsk, Russia",
+      "severity": "medium",
+      "magnitude": 4.6,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T01:28:25.147Z",
+      "notes": "M 4.6 - 151 km SE of Vilyuchinsk, Russia"
+    },
+    {
+      "id": "eq-usgs-us6000si0c",
+      "lat": 13.9562,
+      "lon": 51.4318,
+      "type": "earthquake",
+      "region": "214 km NNW of Kilmia, Yemen",
+      "severity": "medium",
+      "magnitude": 4.5,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-21T00:31:30.926Z",
+      "notes": "M 4.5 - 214 km NNW of Kilmia, Yemen"
+    },
+    {
+      "id": "eq-usgs-us6000shzt",
+      "lat": 38.2516,
+      "lon": 20.2844,
+      "type": "earthquake",
+      "region": "14 km WNW of Lixoúri, Greece",
+      "severity": "medium",
+      "magnitude": 4.5,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-20T23:31:21.230Z",
+      "notes": "M 4.5 - 14 km WNW of Lixoúri, Greece"
+    },
+    {
+      "id": "eq-usgs-us6000shyj",
+      "lat": 28.3965,
+      "lon": 129.343,
+      "type": "earthquake",
+      "region": "14 km WNW of Naze, Japan",
+      "severity": "medium",
+      "magnitude": 4.6,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-20T21:19:21.348Z",
+      "notes": "M 4.6 - 14 km WNW of Naze, Japan"
+    },
+    {
+      "id": "eq-usgs-us6000shxy",
+      "lat": -19.9972,
+      "lon": -71.0226,
+      "type": "earthquake",
+      "region": "94 km WNW of Puerto, Chile",
+      "severity": "medium",
+      "magnitude": 4.7,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-20T20:06:52.112Z",
+      "notes": "M 4.7 - 94 km WNW of Puerto, Chile"
+    },
+    {
+      "id": "eq-usgs-us6000shxt",
+      "lat": -19.2594,
+      "lon": 168.3306,
+      "type": "earthquake",
+      "region": "104 km WNW of Isangel, Vanuatu",
+      "severity": "medium",
+      "magnitude": 4.6,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-20T19:55:20.816Z",
+      "notes": "M 4.6 - 104 km WNW of Isangel, Vanuatu"
+    },
+    {
+      "id": "eq-usgs-us6000shx5",
+      "lat": -4.916,
+      "lon": 145.1919,
+      "type": "earthquake",
+      "region": "74 km WNW of Madang, Papua New Guinea",
+      "severity": "medium",
+      "magnitude": 4.7,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-20T18:32:09.012Z",
+      "notes": "M 4.7 - 74 km WNW of Madang, Papua New Guinea"
+    },
     {
       "id": "eq-usgs-us6000shvi",
       "lat": -32.1967,
@@ -32,6 +287,36 @@
       ],
       "timestamp": "2026-03-20T14:45:25.107Z",
       "notes": "M 4.9 - Fiji region"
+    },
+    {
+      "id": "eq-usgs-us6000shu0",
+      "lat": -5.2729,
+      "lon": 153.6662,
+      "type": "earthquake",
+      "region": "186 km ESE of Kokopo, Papua New Guinea",
+      "severity": "medium",
+      "magnitude": 4.8,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-20T13:57:26.724Z",
+      "notes": "M 4.8 - 186 km ESE of Kokopo, Papua New Guinea"
+    },
+    {
+      "id": "eq-usgs-us6000shth",
+      "lat": 23.768,
+      "lon": 121.7116,
+      "type": "earthquake",
+      "region": "25 km SSE of Hualien City, Taiwan",
+      "severity": "medium",
+      "magnitude": 4.9,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-20T13:32:41.471Z",
+      "notes": "M 4.9 - 25 km SSE of Hualien City, Taiwan"
     },
     {
       "id": "eq-usgs-us6000sht8",
@@ -140,18 +425,18 @@
     },
     {
       "id": "eq-usgs-us6000shnl",
-      "lat": -19.2927,
-      "lon": 168.3597,
+      "lat": -19.2783,
+      "lon": 168.3207,
       "type": "earthquake",
-      "region": "100 km WNW of Isangel, Vanuatu",
+      "region": "105 km WNW of Isangel, Vanuatu",
       "severity": "high",
       "magnitude": 6.1,
       "fatalities": 0,
       "actors": [
         "Tectonic Plates"
       ],
-      "timestamp": "2026-03-20T02:30:33.067Z",
-      "notes": "M 6.1 - 100 km WNW of Isangel, Vanuatu"
+      "timestamp": "2026-03-20T02:30:32.675Z",
+      "notes": "M 6.1 - 105 km WNW of Isangel, Vanuatu"
     },
     {
       "id": "eq-usgs-us6000shnh",
@@ -242,6 +527,21 @@
       ],
       "timestamp": "2026-03-19T22:46:47.575Z",
       "notes": "M 5.2 - 93 km NNE of The Valley, Anguilla"
+    },
+    {
+      "id": "eq-usgs-us6000shj7",
+      "lat": -6.605,
+      "lon": 149.3509,
+      "type": "earthquake",
+      "region": "49 km SSW of Kandrian, Papua New Guinea",
+      "severity": "medium",
+      "magnitude": 4.6,
+      "fatalities": 0,
+      "actors": [
+        "Tectonic Plates"
+      ],
+      "timestamp": "2026-03-19T20:58:33.353Z",
+      "notes": "M 4.6 - 49 km SSW of Kandrian, Papua New Guinea"
     },
     {
       "id": "eq-usgs-us6000shhy",
@@ -1202,216 +1502,6 @@
       ],
       "timestamp": "2026-03-14T18:32:13.214Z",
       "notes": "M 4.9 - Kuril Islands"
-    },
-    {
-      "id": "eq-usgs-us6000sgbx",
-      "lat": 16.6128,
-      "lon": -46.5425,
-      "type": "earthquake",
-      "region": "northern Mid-Atlantic Ridge",
-      "severity": "medium",
-      "magnitude": 5.3,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T17:43:17.250Z",
-      "notes": "M 5.3 - northern Mid-Atlantic Ridge"
-    },
-    {
-      "id": "eq-usgs-us6000sgbr",
-      "lat": -42.429,
-      "lon": -72.0967,
-      "type": "earthquake",
-      "region": "57 km SW of Lago Puelo, Argentina",
-      "severity": "medium",
-      "magnitude": 4.7,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T17:36:09.272Z",
-      "notes": "M 4.7 - 57 km SW of Lago Puelo, Argentina"
-    },
-    {
-      "id": "eq-usgs-us6000sgbi",
-      "lat": 34.9004,
-      "lon": 23.2998,
-      "type": "earthquake",
-      "region": "50 km SW of Palaióchora, Greece",
-      "severity": "medium",
-      "magnitude": 4.8,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T16:21:36.975Z",
-      "notes": "M 4.8 - 50 km SW of Palaióchora, Greece"
-    },
-    {
-      "id": "eq-usgs-us6000sgb8",
-      "lat": -23.0932,
-      "lon": -66.5229,
-      "type": "earthquake",
-      "region": "87 km W of El Aguilar, Argentina",
-      "severity": "medium",
-      "magnitude": 4.5,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T15:20:26.360Z",
-      "notes": "M 4.5 - 87 km W of El Aguilar, Argentina"
-    },
-    {
-      "id": "eq-usgs-us6000sgb2",
-      "lat": -20.5556,
-      "lon": 168.2554,
-      "type": "earthquake",
-      "region": "110 km ENE of Wé, New Caledonia",
-      "severity": "medium",
-      "magnitude": 5,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T14:35:14.235Z",
-      "notes": "M 5.0 - 110 km ENE of Wé, New Caledonia"
-    },
-    {
-      "id": "eq-usgs-us6000sg9g",
-      "lat": -58.7858,
-      "lon": -25.6013,
-      "type": "earthquake",
-      "region": "South Sandwich Islands region",
-      "severity": "medium",
-      "magnitude": 5.2,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T08:34:38.699Z",
-      "notes": "M 5.2 - South Sandwich Islands region"
-    },
-    {
-      "id": "eq-usgs-us6000sg8q",
-      "lat": -47.4228,
-      "lon": -9.5571,
-      "type": "earthquake",
-      "region": "southern Mid-Atlantic Ridge",
-      "severity": "medium",
-      "magnitude": 5.1,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T06:17:18.890Z",
-      "notes": "M 5.1 - southern Mid-Atlantic Ridge"
-    },
-    {
-      "id": "eq-usgs-us6000sg8b",
-      "lat": 13.7887,
-      "lon": -90.6785,
-      "type": "earthquake",
-      "region": "16 km S of Iztapa, Guatemala",
-      "severity": "medium",
-      "magnitude": 4.6,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T05:05:36.354Z",
-      "notes": "M 4.6 - 16 km S of Iztapa, Guatemala"
-    },
-    {
-      "id": "eq-usgs-us6000sg7q",
-      "lat": 52.2825,
-      "lon": 160.3337,
-      "type": "earthquake",
-      "region": "144 km SE of Petropavlovsk-Kamchatsky, Russia",
-      "severity": "medium",
-      "magnitude": 4.5,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-14T03:02:13.671Z",
-      "notes": "M 4.5 - 144 km SE of Petropavlovsk-Kamchatsky, Russia"
-    },
-    {
-      "id": "eq-usgs-us6000sg71",
-      "lat": 52.2113,
-      "lon": 159.0842,
-      "type": "earthquake",
-      "region": "92 km SSE of Vilyuchinsk, Russia",
-      "severity": "medium",
-      "magnitude": 4.5,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-13T23:36:06.313Z",
-      "notes": "M 4.5 - 92 km SSE of Vilyuchinsk, Russia"
-    },
-    {
-      "id": "eq-usgs-us6000sg6u",
-      "lat": 51.622,
-      "lon": 159.4673,
-      "type": "earthquake",
-      "region": "162 km SSE of Vilyuchinsk, Russia",
-      "severity": "medium",
-      "magnitude": 4.7,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-13T22:56:38.226Z",
-      "notes": "M 4.7 - 162 km SSE of Vilyuchinsk, Russia"
-    },
-    {
-      "id": "eq-usgs-us6000sg6t",
-      "lat": -33.2449,
-      "lon": -177.9295,
-      "type": "earthquake",
-      "region": "south of the Kermadec Islands",
-      "severity": "medium",
-      "magnitude": 5,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-13T22:54:36.238Z",
-      "notes": "M 5.0 - south of the Kermadec Islands"
-    },
-    {
-      "id": "eq-usgs-us6000sg5l",
-      "lat": -24.247,
-      "lon": 46.1768,
-      "type": "earthquake",
-      "region": "89 km NNW of Amboasary, Madagascar",
-      "severity": "medium",
-      "magnitude": 4.6,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-13T21:09:02.299Z",
-      "notes": "M 4.6 - 89 km NNW of Amboasary, Madagascar"
-    },
-    {
-      "id": "eq-usgs-us6000sg57",
-      "lat": 39.3857,
-      "lon": 143.2972,
-      "type": "earthquake",
-      "region": "116 km E of Yamada, Japan",
-      "severity": "medium",
-      "magnitude": 5,
-      "fatalities": 0,
-      "actors": [
-        "Tectonic Plates"
-      ],
-      "timestamp": "2026-03-13T19:55:23.213Z",
-      "notes": "M 5.0 - 116 km E of Yamada, Japan"
     }
   ]
 }
