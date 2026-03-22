@@ -27,7 +27,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/8346aa9172045930.js"
   ],
   "/tools/javascript-obfuscator": [
-    "static/chunks/424a37a469d421a9.js"
+    "static/chunks/23aa8ff4adb91473.js"
   ],
   "/tools/log-reader": [
     "static/chunks/b4dc61f5e11c37b5.js"
