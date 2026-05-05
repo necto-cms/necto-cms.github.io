@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-03-22T18:07:13.989Z",
+  "generated": "2026-04-10T12:16:23.968Z",
   "datasets": {
     "attacks": {
       "file": "/data/osint/attacks.json",
@@ -10,8 +10,8 @@
     },
     "earthquakes": {
       "file": "/data/osint/earthquakes.json",
-      "updated": "2026-03-22T18:07:13.614Z",
-      "count": 113,
+      "updated": "2026-04-10T12:16:23.694Z",
+      "count": 102,
       "source": "USGS Earthquakes (live)"
     },
     "outages": {
@@ -22,7 +22,7 @@
     },
     "fires": {
       "file": "/data/osint/fires.json",
-      "updated": "2026-03-22T18:07:13.621Z",
+      "updated": "2026-04-10T12:16:23.761Z",
       "count": 100,
       "source": "NASA EONET (live)"
     },
