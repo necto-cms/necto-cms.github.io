@@ -6,4 +6,4 @@ Allow: /
 Host: https://xto.icu
 
 # Sitemaps
-Sitemap: https://xto.icu/sitemap.xml
+Sitemap: https://xto.icu/sitemap-v2.xml
