@@ -27,7 +27,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/3cb6f4e53e320c9a.js"
   ],
   "/tools/device-bridge": [
-    "static/chunks/13363831cc6abd22.js"
+    "static/chunks/d01ff1ea0712f40d.js"
   ],
   "/tools/docker-builder": [
     "static/chunks/c46b8735d887a3eb.js"
